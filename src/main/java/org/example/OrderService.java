@@ -26,7 +26,7 @@ public class OrderService {
         int quantity = order.getQuantity();
         double unitPrice = order.getUnitPrice();
 
-        return quantity * unitPrice;
+        return order.getTotalPrice();
     }
 }
 

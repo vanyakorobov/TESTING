@@ -34,6 +34,6 @@ public class Order {
     }
 
     public double getTotalPrice() {
-        return getUnitPrice()*quantity;
+        return getUnitPrice() * quantity;
     }
 }
